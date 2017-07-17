@@ -1,14 +1,11 @@
-py-asic-tools
---
+# py-asic-tools
 
 Author: Kevin Kiningham
 License: MIT
 
-Setup
---
+## Setup
 
-Installing Verilator
---
+### Installing Verilator
 In `./verilator` run
 
 ```
@@ -17,6 +14,5 @@ autoconf
 make -j8 && sudo make install
 ```
 
-Installing pybind11
---
+### Installing pybind11
 No setup needed since it's a header only library (in `pybind11/include/`)
